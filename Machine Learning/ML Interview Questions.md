@@ -34,35 +34,35 @@ Machine Learning is a subset of artificial intelligence that focuses on building
 ### What are the different types of Machine Learning?
 <details>
 <summary>Answer</summary>
-- **Supervised Learning**: The model is trained on labeled data, where the input comes with corresponding output. Examples include regression and classification tasks.
-- **Unsupervised Learning**: The model is trained on unlabeled data, identifying patterns and relationships without predefined labels. Examples include clustering and association.
-- **Semi-supervised Learning**: Combines both labeled and unlabeled data for training, often using a small amount of labeled data to improve learning from a larger pool of unlabeled data.
-- **Reinforcement Learning**: An agent learns to make decisions by taking actions in an environment to maximize cumulative reward, receiving feedback from actions.
+- **Supervised Learning** : The model is trained on labeled data, where the input comes with corresponding output. Examples include regression and classification tasks.
+- **Unsupervised Learning** : The model is trained on unlabeled data, identifying patterns and relationships without predefined labels. Examples include clustering and association.
+- **Semi-supervised Learning** : Combines both labeled and unlabeled data for training, often using a small amount of labeled data to improve learning from a larger pool of unlabeled data.
+- **Reinforcement Learning** : An agent learns to make decisions by taking actions in an environment to maximize cumulative reward, receiving feedback from actions.
 </details>
 
 ### What is the difference between classification and regression?
 <details>
 <summary>Answer</summary>
-- **Classification**: A supervised learning task where the output variable is categorical (e.g., spam or not spam). The goal is to predict discrete labels.
-- **Regression**: A supervised learning task where the output variable is continuous (e.g., predicting house prices). The goal is to predict real-valued outputs.
+- **Classification** : A supervised learning task where the output variable is categorical (e.g., spam or not spam). The goal is to predict discrete labels.
+- **Regression** : A supervised learning task where the output variable is continuous (e.g., predicting house prices). The goal is to predict real-valued outputs.
 </details>
 
 ### What is overfitting and underfitting?
 <details>
 <summary>Answer</summary>
-- **Overfitting**: Occurs when a model learns the training data too well, including noise and outliers, leading to poor generalization on new data. It results in high accuracy on training data but low accuracy on validation/test data.
-- **Underfitting**: Occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and test data.
+- **Overfitting** : Occurs when a model learns the training data too well, including noise and outliers, leading to poor generalization on new data. It results in high accuracy on training data but low accuracy on validation/test data.
+- **Underfitting** : Occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and test data.
 </details>
 
 ### How can you prevent overfitting?
 <details>
 <summary>Answer</summary>
 Strategies to prevent overfitting include:
-- **Cross-validation**: Use techniques like k-fold cross-validation to ensure the model generalizes well.
-- **Regularization**: Techniques like L1 (Lasso) and L2 (Ridge) regularization add a penalty to the loss function to constrain model complexity.
-- **Pruning**: In decision trees, remove branches that have little importance.
-- **Dropout**: In neural networks, randomly drop units during training to prevent co-adaptation.
-- **Simplifying the model**: Reducing the complexity of the model (e.g., fewer layers in a neural network) can help.
+- **Cross-validation** : Use techniques like k-fold cross-validation to ensure the model generalizes well.
+- **Regularization** : Techniques like L1 (Lasso) and L2 (Ridge) regularization add a penalty to the loss function to constrain model complexity.
+- **Pruning** : In decision trees, remove branches that have little importance.
+- **Dropout** : In neural networks, randomly drop units during training to prevent co-adaptation.
+- **Simplifying the model** : Reducing the complexity of the model (e.g., fewer layers in a neural network) can help.
 </details>
 
 ### What is a confusion matrix?
@@ -75,9 +75,9 @@ A confusion matrix is a table used to evaluate the performance of a classificati
 <details>
 <summary>Answer</summary>
 
-- **Precision**: The ratio of true positive predictions to the total predicted positives. It indicates the accuracy of positive predictions. 
+- **Precision** : The ratio of true positive predictions to the total predicted positives. It indicates the accuracy of positive predictions. 
   
-- **Recall (Sensitivity)**: The ratio of true positive predictions to the total actual positives. It measures the model's ability to identify positive instances.
+- **Recall (Sensitivity)** : The ratio of true positive predictions to the total actual positives. It measures the model's ability to identify positive instances.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*pOtBHai4jFd-ujaNXPilRg.png)
 </details>
@@ -86,8 +86,8 @@ A confusion matrix is a table used to evaluate the performance of a classificati
 <details>
 <summary>Answer</summary>
 The bias-variance tradeoff is a fundamental concept in machine learning that describes the balance between two sources of error in a model:
-- **Bias**: Error due to overly simplistic assumptions in the learning algorithm, leading to underfitting.
-- **Variance**: Error due to excessive complexity in the model, leading to overfitting. The goal is to find a model that minimizes both bias and variance to achieve better generalization.
+- **Bias** : Error due to overly simplistic assumptions in the learning algorithm, leading to underfitting.
+- **Variance** : Error due to excessive complexity in the model, leading to overfitting. The goal is to find a model that minimizes both bias and variance to achieve better generalization.
 </details>
 
 ### What is feature engineering?
